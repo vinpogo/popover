@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "Bundler",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "lib": ["DOM", "ESNext", "DOM.Iterable", "ES2015"],
+    "skipLibCheck": true,
+    "declaration": true
+  },
+  "include": ["src"]
+}

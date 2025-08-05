@@ -1,0 +1,12 @@
+packages:
+  - packages/*
+
+catalogs:
+  dev:
+    oxlint: ^1.9.0
+    prettier: ^3.6.2
+    tsdown: ^0.13.0
+    typescript: ^5.8.3
+    vue: ^3.5.0
+  prod:
+    '@floating-ui/vue': ^1.1.7

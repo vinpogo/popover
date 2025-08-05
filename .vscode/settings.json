@@ -1,0 +1,7 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll.oxc": "explicit"
+  },
+  "deno.enable": false
+}

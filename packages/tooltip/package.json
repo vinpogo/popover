@@ -1,0 +1,35 @@
+{
+  "name": "@vingy/tooltip",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "tsdown -c rolldown.config.ts --watch"
+  },
+  "peerDependencies": {
+    "vue": "catalog:dev"
+  },
+  "dependencies": {
+    "@floating-ui/vue": "catalog:prod",
+    "@vingy/shared": "workspace:*"
+  },
+  "files": [
+    "dist"
+  ],
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./composables": {
+      "import": "./dist/composables.js",
+      "types": "./dist/composables.d.ts"
+    },
+    "./types": {
+      "import": "./dist/types.js",
+      "types": "./dist/types.d.ts"
+    },
+    "./package.json": "./package.json"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "oxlint": "catalog:dev",
+    "prettier": "catalog:dev",
+    "tsdown": "catalog:dev",
+    "typescript": "catalog:dev"
+  }
+}
